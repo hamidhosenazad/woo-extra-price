@@ -1,0 +1,25 @@
+.extra-item-label {
+    background-color: #141a3d;
+    color: white;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 2%;
+    border-radius: 5px;
+}
+
+.extra-item-label-text {
+    margin-right: 10px; 
+}
+
+.dropdown-icon {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 6px 10px 6px; 
+    border-color: transparent transparent white transparent; 
+}
+.item-price {
+    float: right;
+}
